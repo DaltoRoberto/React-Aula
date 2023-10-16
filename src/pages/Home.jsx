@@ -1,13 +1,15 @@
 import { Container } from "react-bootstrap";
 import CarouselAnuncios from "../componentes/CarouselAnuncios";
-import { ListaProdutos } from "../componentes/ListaProdutos";
 import NavBar from "../componentes/NavBar";
+import Fotos from "../componentes/Fotos";
+import Galeria from "../componentes/Galeria";
 
 function Home() {
   return (
     <NavBar>
       <CarouselAnuncios />
-      <ListaProdutos />
+      <br/>
+      <Galeria />
     </NavBar>
   );
 }

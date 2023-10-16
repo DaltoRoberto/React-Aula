@@ -42,7 +42,7 @@ function CardProduto({ idProduto, nome, preco, descricao, linkImagem }) {
             adicionarNoCarrinho(idProduto, nome, preco, descricao, linkImagem)
           }
         >
-          ADICIONAR
+          COMPRAR
         </Button>
       </Card.Body>
     </Card>

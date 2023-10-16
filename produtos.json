@@ -1,34 +1,19 @@
 {
   "login": [
     {
-      "email": "marcelo@teste.com",
+      "email": "teste@teste.com",
       "password": "123123",
       "id": 1
     },
     {
-      "email": "marcelo@teste.com",
+      "email": "admin@teste.com",
       "password": "123123",
       "id": 2
     },
     {
-      "email": "marcelo@teste.com",
+      "email": "dalto@teste.com",
       "password": "123123",
       "id": 3
-    },
-    {
-      "email": "marcelo@teste.com",
-      "password": "123123",
-      "id": 4
-    },
-    {
-      "email": "marcelo@teste.com",
-      "password": "123123",
-      "id": 5
-    },
-    {
-      "email": "marcelo@teste.com",
-      "password": "123123",
-      "id": 6
     }
   ],
   "produtos": [

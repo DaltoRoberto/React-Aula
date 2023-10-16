@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import { toast } from "react-toastify";
-import api from "../_service/api";
+// import api from "../_service/api";
 import api_v2 from "../_service/api_v2";
 import { CardProduto } from "./CardProduto";
 
-function ListaProdutos() {
+function Descricao() {
   const [produtos, setProdutos] = useState([]);
 
   useEffect(() => {
@@ -14,8 +14,8 @@ function ListaProdutos() {
 
   async function buscarProdutos() {
     try {
-      const response = await api.get("/productlistbyremark/home");
-      // const response = await api_v2.get("/products/products.json");
+      // const response = await api.get("/productlistbyremark/home");
+      const response = await api_v2.get("/products/products.json");
       setProdutos(response.data);
     } catch (error) {
       mensagemDeErro("Erro para buscar os produtos.");
@@ -56,4 +56,4 @@ function ListaProdutos() {
   );
 }
 
-export { ListaProdutos };
+export { Descricao };

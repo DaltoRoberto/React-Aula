@@ -1,38 +1,3 @@
-# LINK PROJETO NA VERCEL ##
-https://react-aula.vercel.app/
-## ------------------------------ ##
-# AULA 1 ##
-## INICIO REACT
-    Introdução react
-    Instalação react
-    Primeiras configuração
-
-## COMPONENTES
-    Introdução de componentes
-    Introdução de jsx
-    Import de componentes
-    Criando componentes
-    Props do componente
-
-## HOOKS/EVENTOS
-    Introdução hooks
-    useState
-    useEffect
-
-# AULA 2 ##
-## INSTALANDO FERRAMENTAS
-    Introdução bootstrap
-    Utilização bootstrap
-    Rotas
-
-## AXIOS/TOASTIFY
-    Utilização do axios
-    Map - Listando produtos
-    Conceito de destructuring
-    Utilização de bootstrap
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

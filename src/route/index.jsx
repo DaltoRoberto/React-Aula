@@ -3,6 +3,8 @@ import { Carrinho } from "../pages/Carrinho";
 import { Home } from "../pages/Home";
 import { Login } from "../pages/Login";
 import { Produto } from "../pages/Produto";
+import { QuemSomos } from "../pages/QuemSomos";
+import { Cadastro } from "../pages/Cadastro";
 import { MinhaRotas } from "./v2/MinhaRotas";
 import { BaseSistema } from "./v2/BaseSistema";
 export function RouteApp() {
@@ -13,6 +15,8 @@ export function RouteApp() {
         <Route path="/login" element={<Login />} />
         <Route path="/produtos" element={<Produto />} />
         <Route path="/carrinho" element={<Carrinho />} />
+        <Route path="/quemsomos" element={<QuemSomos />} />
+        <Route path="/cadastro" element={<Cadastro />} />
       <Route path="/v2/*" element={<BaseSistema componente={MinhaRotas} />} />
       </Routes>
     </BrowserRouter>
